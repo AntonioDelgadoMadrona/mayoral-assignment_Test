@@ -1,0 +1,139 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Camiseta Básica",
+      "price": 14.99,
+      "discount": 5,
+      "colors": ["blanco", "negro", "gris"],
+      "description": "Camiseta de algodón básica, perfecta para el día a día.",
+      "imageUrl": "camiseta.avif"
+    },
+    {
+      "id": "2",
+      "name": "Pantalones Vaqueros",
+      "price": 39.99,
+      "discount": 10,
+      "colors": ["azul", "negro"],
+      "description": "Pantalones vaqueros de corte clásico y cómodo.",
+      "imageUrl": "pantalon.avif"
+    },
+    {
+      "id": "3",
+      "name": "Sudadera con Capucha",
+      "price": 29.99,
+      "discount": 0,
+      "colors": ["rojo", "azul", "verde"],
+      "description": "Sudadera con capucha de estilo casual.",
+      "imageUrl": "sudadera.avif"
+    },
+    {
+      "id": "4",
+      "name": "Falda Plisada",
+      "price": 24.99,
+      "discount": 15,
+      "colors": ["negro", "rojo", "azul"],
+      "description": "Falda plisada elegante, ideal para ocasiones especiales.",
+      "imageUrl": "camiseta.avif"
+    },
+    {
+      "id": "5",
+      "name": "Chaqueta de Cuero",
+      "price": 59.99,
+      "discount": 20,
+      "colors": ["negro", "marrón"],
+      "description": "Chaqueta de cuero auténtico para un look moderno.",
+      "imageUrl": "sudadera.avif"
+    },
+    {
+      "id": "6",
+      "name": "Vestido de Verano",
+      "price": 19.99,
+      "discount": 10,
+      "colors": ["amarillo", "azul", "rosa"],
+      "description": "Vestido de verano ligero y fresco.",
+      "imageUrl": "pantalon.avif"
+    },
+    {
+      "id": "7",
+      "name": "Camisa de Rayas",
+      "price": 25.99,
+      "discount": 5,
+      "colors": ["azul", "blanco", "negro"],
+      "description": "Camisa de rayas, ideal para un look casual.",
+      "imageUrl": "camiseta.avif"
+    },
+    {
+      "id": "8",
+      "name": "Pantalones Cortos",
+      "price": 14.99,
+      "discount": 0,
+      "colors": ["beige", "azul", "verde"],
+      "description": "Pantalones cortos cómodos para el verano.",
+      "imageUrl": "pantalon.avif"
+    },
+    {
+      "id": "9",
+      "name": "Abrigo de Invierno",
+      "price": 49.99,
+      "discount": 15,
+      "colors": ["negro", "gris", "azul"],
+      "description": "Abrigo de invierno cálido y elegante.",
+      "imageUrl": "pantalon.avif"
+    },
+    {
+      "id": "10",
+      "name": "Blusa de Encaje",
+      "price": 27.99,
+      "discount": 5,
+      "colors": ["blanco", "negro", "rojo"],
+      "description": "Blusa de encaje delicada y femenina.",
+      "imageUrl": "camiseta.avif"
+    },
+    {
+      "id": "11",
+      "name": "Suéter de Lana",
+      "price": 34.99,
+      "discount": 10,
+      "colors": ["gris", "azul", "verde"],
+      "description": "Suéter de lana suave y cómodo.",
+      "imageUrl": "sudadera.avif"
+    },
+    {
+      "id": "12",
+      "name": "Pantalones Deportivos",
+      "price": 22.99,
+      "discount": 0,
+      "colors": ["negro", "gris", "azul"],
+      "description": "Pantalones deportivos para actividades físicas.",
+      "imageUrl": "pantalon.avif"
+    },
+    {
+      "id": "13",
+      "name": "Chaleco Acolchado",
+      "price": 29.99,
+      "discount": 10,
+      "colors": ["negro", "verde", "azul"],
+      "description": "Chaleco acolchado para mayor calidez.",
+      "imageUrl": "sudadera.avif"
+    },
+    {
+      "id": "14",
+      "name": "Gorra de Béisbol",
+      "price": 9.99,
+      "discount": 0,
+      "colors": ["rojo", "azul", "negro"],
+      "description": "Gorra de béisbol ajustable y moderna.",
+      "imageUrl": "pantalon.avif"
+    },
+    {
+      "id": "15",
+      "name": "Bufanda de Lana",
+      "price": 12.99,
+      "discount": 5,
+      "colors": ["rojo", "gris", "azul"],
+      "description": "Bufanda de lana suave y cálida.",
+      "imageUrl": "camiseta.avif"
+    }
+  ]
+}

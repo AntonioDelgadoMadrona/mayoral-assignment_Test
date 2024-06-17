@@ -1,0 +1,17 @@
+.productList {
+  display: grid;
+  gap: 16px;
+  padding: 16px;
+}
+
+@media (min-width: 480px) {
+  .productList {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .productList {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
