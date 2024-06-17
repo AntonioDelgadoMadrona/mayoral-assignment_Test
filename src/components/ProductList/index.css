@@ -1,7 +1,12 @@
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .productList {
   display: grid;
-  gap: 16px;
-  padding: 16px;
+  gap: 15px;
 }
 
 @media (min-width: 480px) {

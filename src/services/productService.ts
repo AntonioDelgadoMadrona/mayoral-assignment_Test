@@ -1,4 +1,4 @@
-import { IProduct } from '@/types/product';
+import { IProduct } from '@/types/IProduct';
 import API_RESPONSE from '@/data/products.json';
 
 export const getProductsHandler = async (): Promise<IProduct[]> => {
