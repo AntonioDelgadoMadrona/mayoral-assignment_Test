@@ -31,7 +31,7 @@ main h1 {
 header {
   width: 100vw;
   height: 80px;
-  background-color: darkcyan;
+  background-color: #0000ee;
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -75,7 +75,7 @@ header ul li a:hover {
 
 footer {
   width: 60vw;
-  margin: 0 auto;
+  margin: 20px auto;
   text-align: center;
   font-weight: bold;
 }

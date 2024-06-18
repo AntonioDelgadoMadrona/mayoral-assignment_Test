@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import ProductCard from '../ProductCard';
 import { IProduct } from '@/types/IProduct';
-import { getProductsHandler } from '@/services/productService';
+import { getProductsHandler } from '@/api/services/productService';
 import './index.css';
 import SearchProducts from '../Search';
 import SortProducts from '../Sort';
