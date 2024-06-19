@@ -15,7 +15,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   return (
     <div className="productCard">
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={`http://localhost:3000/images/${imageUrl}`} alt={name} className="productImage" />
+      <img src={`${window.origin}/images/${imageUrl}`} alt={name} className="productImage" />
       <div className="productDetails">
         <h3 className="productName">{name}</h3>
         <div className="productPrice">

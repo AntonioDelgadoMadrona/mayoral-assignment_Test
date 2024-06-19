@@ -15,7 +15,7 @@ const SortProducts: React.FC<SortProductsProps> = ({ onSortChange }) => {
   };
 
   return (
-    <div className="sort-container">
+    <div className="sort-container" data-testid="sort-component">
       <label htmlFor="sort-select">Ordenar: </label>
       <select id="sort-select" value={sortBy} onChange={handleSortChange} className="sort-select">
         <option value="asc">Precio ascendente</option>

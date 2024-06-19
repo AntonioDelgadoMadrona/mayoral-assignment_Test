@@ -7,16 +7,16 @@ import Footer from '@/components/Footer';
 // STYLES
 import './layout.css';
 
+interface RootLayoutProps {
+  children: React.ReactNode;
+}
+
 export const metadata: Metadata = {
   title: 'Mayoral Test',
   description: 'Creado por Antonio Delgado',
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   return (
     <html lang="es">
       <Head>
@@ -29,4 +29,6 @@ export default function RootLayout({
       </body>
     </html>
   );
-}
+};
+
+export default RootLayout;

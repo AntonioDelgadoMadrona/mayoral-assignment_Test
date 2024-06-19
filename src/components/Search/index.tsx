@@ -15,7 +15,7 @@ export const Search: React.FC<SearchProps> = ({ onSearch }) => {
   };
 
   return (
-    <div className="search-container">
+    <div className="search-container" data-testid="search-component">
       <input
         type="text"
         value={query}

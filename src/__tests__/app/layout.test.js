@@ -1,13 +1,13 @@
 /* eslint-disable react/display-name */
 import React from 'react';
-import { render, screen, prettyDOM } from '@testing-library/react';
-import RootLayout from '../app/layout';
+import { render, screen } from '@testing-library/react';
+import RootLayout from '@/app/layout';
 
-jest.mock('../components/Header', () => () => <div>Mocked Header</div>);
-jest.mock('../components/Footer', () => () => <div>Mocked Footer</div>);
+jest.mock('@/components/Header', () => () => <div>Mocked Header</div>);
+jest.mock('@/components/Footer', () => () => <div>Mocked Footer</div>);
 
 describe('Layout Component', () => {
-  it('renders without crashing', () => {
+  test('renders without crashing', () => {
     render(
       <RootLayout>
         <div>Test Child</div>
@@ -19,7 +19,7 @@ describe('Layout Component', () => {
     expect(screen.getByText('Test Child')).toBeInTheDocument();
   });
 
-  it('sets the correct language on the html tag', () => {
+  test('sets the correct language on the html tag', () => {
     const { container } = render(
       <RootLayout>
         <div>Test Child</div>
